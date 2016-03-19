@@ -1,0 +1,10 @@
+{
+    "name": "Focused",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Prohibits certain social media sites on your browser for when user requires absolute focus.",
+    "browser_action": {
+        "default_icon": "focused.png"
+    }
+
+}
