@@ -5,7 +5,14 @@
     "description": "Prohibits certain social media sites on your browser for when user requires absolute focus.",
     "browser_action": {
         "default_icon": "focused.png",
-        "default_popup": "popup.html"
-    }
+        "default_popup": "popup.html"},
+
+        "background": {
+            "scripts": ["background.js"]
+        }
+
+    "permissions" :[
+    "tabs"
+    ]
 
 }
